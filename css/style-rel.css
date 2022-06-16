@@ -4,9 +4,7 @@
     background-color: #0c131b;
 
 }
-td {
-    text-align: center;
-}
+
 h1 {
     margin: 0;
     text-align: center;
@@ -24,7 +22,7 @@ h2 {
     font-family: "Arial";
 }
 p {
-    align-items: left;
+    padding: 1px 54px;
     font-size: 14px;
     line-height: 22px;
     color: #86918c;
@@ -51,6 +49,7 @@ span {
     background: #9f15a9 url(../https://github.com/Nataliia-Zemlyak/email/blob/master/img/knopka.jpg?raw=true) center/cover;
 }
 .knopka a {
+    display: inline-block;
     text-decoration: none;
     font-size: 24px;
     line-height: 22px;
@@ -70,12 +69,12 @@ span {
     color: #9f15a9;
 }
 .pre-order h3 {
-
+    margin: 0;
     color: #bcbcbd;
     font-family: "Arial";
 }
 .prop {
-    padding: 16px;
+    
     font-size: 11px;
     line-height: 22px;
     color: #85908c;
@@ -101,17 +100,18 @@ span {
 }
 .connect p {
     margin-bottom: 30px;
-    font-size: 14px;
-line-height: 22px;
-color: #000000;
-font-family: "Arial";
-text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    font-family: "Arial";
+    text-align: center;
 }
 .connect span,
 .connect a {
     color: #c17029;
 }
 .social  {
-    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
     background-color: #eed3a8;
 }
